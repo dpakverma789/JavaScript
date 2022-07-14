@@ -1,0 +1,22 @@
+body{
+    background-color: #3385aa;
+}
+
+.clock_ui {
+    color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    font-size: 50px;
+    border: 2px solid black;
+    margin: 10% 32%;
+    background-color: #24272b;
+    box-shadow: 1px 1px 4px 2px black;
+    width: 121mm;
+    height: 17mm;
+    line-height: 40px;
+}
+
+#date {
+    font-size: 15px;
+    float: right;
+}

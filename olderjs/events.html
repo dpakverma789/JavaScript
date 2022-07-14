@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>event</title>
+</head>
+<body>
+	<p id="demo">Hello Mr. stark</p>
+	<!-- inline event script -->
+	<button type ="button" onclick='document.getElementById("demo").innerHTML="JavaScript Welcomes You!!"'>Click me</button>
+	<button onclick="resetClick()">Reset me</button>
+
+    <p id="newdemo">Welcome to the world of Python</p>
+    <button onclick="javascript()">javascript</button>
+    <button onclick="python()">python</button>
+
+    <h4>Finding Max and Min Ssing Sort Method</h4>
+    <p>Sorting using compare function</p>
+    <p id="array"></p>
+    <p>Max is : <span id="max"></span></p>
+    <p>Min is : <span id="min"></span></p>
+    <button onclick="sorting()">Sort me</button>
+    <button onclick="resetclick()">Reset me</button>
+    <p id='date'></p>
+    <p id="oddlist"></p>
+
+	<script type="text/javascript" src="events.js">
+		// function inside the html page within the scrip tag
+		/*function resetClick()
+			{
+				document.getElementById("demo").innerHTML="Hello deepak!!";
+			}*/
+	</script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</body>
+</html>

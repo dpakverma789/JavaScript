@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		input[type="text"]
+		{
+			outline: none;
+			border-radius: 25px 0 0 25px;
+			height: 24px;
+			padding-left: 5px; 
+		}
+		input[type="button"]
+		{
+			outline: none;
+			border-radius: 0px 25px 25px 0px;
+		    height: 30px;
+			margin-left: -6px;
+			text-transform: capitalize;
+			cursor: pointer; 
+		}
+		input[type="button"]:hover
+		{
+			color:white;
+			background: orange;
+		}
+
+		p
+		{
+			margin-left: 25px;
+			text-transform: capitalize;
+		}
+		h4
+		{
+			text-transform: capitalize;
+		}
+	</style>
+</head>
+<body>
+	<h4>Test your test eligibity</h4>
+	<input type="text" id="data" placeholder="Enter your age here"/>
+	<input type="button" value="submit" onclick="func()" />
+    <p id="p01"></p>
+
+
+
+<script type="text/javascript">
+
+	function func()
+	{
+		var age;
+		age = document.getElementById('data').value; //used to collect data from input tag
+		
+		text = document.getElementById('p01').innerHTML; //used to collect data from p tag
+		
+
+		try 
+		{	
+			if (parseInt(age) <18)
+			{
+			    document.getElementById('p01').innerHTML = "not eligible to vote";
+			}
+			else if(parseInt(age)>=18)
+			{
+				document.getElementById('p01').innerHTML = "eligible to vote";
+			}
+
+			else 
+			{
+			   throw "Please Enter age in Number";
+			   	
+			}
+
+		}
+
+		catch(error)
+		{
+			document.getElementById('p01').innerHTML = "";
+			alert(error);
+		}
+	}
+
+</script>
+</body>
+</html>
