@@ -1,0 +1,8 @@
+step 1
+npm install -g expo-cli
+
+step 2
+expo init <project_name>
+
+step3
+expo start
