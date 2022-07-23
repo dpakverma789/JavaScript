@@ -6,6 +6,7 @@ app.json
 babel.config.js
 package.json
 package-lock.json
+yarn.lock
 dist/
 npm-debug.*
 *.jks
