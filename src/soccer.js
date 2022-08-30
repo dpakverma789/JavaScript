@@ -1,10 +1,13 @@
 
 function Goal(props){
     const isGoal = props.isGoal;
-    if (isGoal){
-        return(<h1>Goal!!</h1>);
+    const miss = {
+        color: "red"
     }
-    return(<h1>Oh! We missed the goal</h1>);
+    if (isGoal){
+        return(<h1 style={{color:"green"}}>Goal!!</h1>);
+    }
+    return(<h1 style={miss}>Oh! We missed the goal</h1>);
 
 }
 

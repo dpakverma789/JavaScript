@@ -18,4 +18,4 @@ function helloword(){
 // ReactDOM.render(<helloword/>,document.getElementById('root'))
 // ReactDOM.render(<Garage helloword={ msg }/>,document.getElementById('root'))
 // ReactDOM.render(<App/>,document.getElementById('root'))
-ReactDOM.render(<Goal isGoal={ false }/>, document.getElementById('root'))
+ReactDOM.render(<Goal isGoal={ true }/>, document.getElementById('root'))
