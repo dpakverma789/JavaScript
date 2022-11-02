@@ -1,14 +1,14 @@
 //alert("welcome to world of JavaScript");
 
 //DATA-TYPE
-var num1 = prompt('Enter num1')
-var num2 = prompt('Enter num2')
-var sum = parseInt(num1)+parseInt(num2)
+// var num1 = prompt('Enter num1')
+// var num2 = prompt('Enter num2')
+// var sum = parseInt(num1)+parseInt(num2)
 var integer=80;
 var string=" string ";
 var float=10.52;
 const PI=3.14;  //cannot be changed
-document.write(sum,',',integer,',',string,',',float,',',PI,"<br>");
+// document.write(sum,',',integer,',',string,',',float,',',PI,"<br>");
 console.log(integer,string,float);
 
 
